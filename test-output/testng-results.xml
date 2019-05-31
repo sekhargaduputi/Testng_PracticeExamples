@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="186" started-at="2019-05-28T16:18:25Z" finished-at="2019-05-28T16:18:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="186" started-at="2019-05-28T16:18:25Z" finished-at="2019-05-28T16:18:25Z">
+      <class name="Examples.search">
+        <test-method status="PASS" signature="m()[pri:0, instance:Examples.search@711f39f9]" name="m" duration-ms="59" started-at="2019-05-28T16:18:25Z" finished-at="2019-05-28T16:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:Examples.search@711f39f9]" name="m1" duration-ms="16" started-at="2019-05-28T16:18:25Z" depends-on-methods="Examples.search.m" finished-at="2019-05-28T16:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- Examples.search -->
+      <class name="Examples.Login">
+        <test-method status="PASS" signature="logout()[pri:0, instance:Examples.Login@23faf8f2]" name="logout" duration-ms="16" started-at="2019-05-28T16:18:25Z" finished-at="2019-05-28T16:18:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Examples.Login -->
+      <class name="Examples.Admin">
+        <test-method status="PASS" signature="emp()[pri:0, instance:Examples.Admin@2d6eabae]" name="emp" duration-ms="0" started-at="2019-05-28T16:18:25Z" finished-at="2019-05-28T16:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emp -->
+      </class> <!-- Examples.Admin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
